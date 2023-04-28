@@ -35,7 +35,7 @@ public class calculator {
             break;
 
             case 4:
-            select = n1/n2;10
+            select = n1/n2;
             System.out.println("Result: " + select);
             break;
 
