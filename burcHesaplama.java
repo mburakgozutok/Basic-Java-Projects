@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class burcHesaplama {
     public static void main(String[] args) {
         int gun,ay;
-        String burc;
+        String burc ="";
         boolean isError = false;
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Doğduğunuz Ay:");
+        System.out.print("Doğduğunuz Ay: ");
         ay = input.nextInt();
 
-        System.out.print("Doğduğunuz Gün:");
+        System.out.print("Doğduğunuz Gün: ");
         gun = input.nextInt();
 
         switch(ay){
@@ -164,7 +164,7 @@ public class burcHesaplama {
         if (isError){
             System.out.println("Hatalı Giriş Yaptınız! Tekrar Deneyiniz!");
         } else {
-            System.out.println("Merhaba! Burcunuz: " + burc);
+            System.out.println("Merhaba! Burcunuz: "+ burc);
         }
 
     }
